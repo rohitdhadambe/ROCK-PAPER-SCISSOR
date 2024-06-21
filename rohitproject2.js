@@ -28,7 +28,7 @@ const showWinner=(USERWIN,cmchoies,userch)=>{
      if(USERWIN){
         U++;    //variable to increment the vaue of score ie=U
         URSC.innerText=U;
-       msg.innerText = ` YOU CHOIES ${userch}, BEATS  COMPUTER CHOIES,
+       msg.innerText = ` YOU CHOIES ${userch}, BEATS  COMPUTER CHOIES,${cmchoies}
 
          MATCH POINT GOES TO YOU...! `;
        msg.style.backgroundColor ="aquamarine";
